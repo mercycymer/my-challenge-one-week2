@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>date of birth</title>
+</head>
+<body>
+<script>
+    var dob = prompt("fill in your date of birth");
+
+var current_year = 2019;
+
+var age = current_year - dob;
+
+
+if (age<18) 
+{
+    document.write("this person is minor");
+
+}
+else if (age>18 && age<36)
+{
+   document.write("this person is youth");  
+}
+else
+
+{
+    document.write("this person is an elder"); 
+} 
+    </script>
+</body>
+</html>
